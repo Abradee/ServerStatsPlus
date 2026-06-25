@@ -1,0 +1,11 @@
+name: ServerStatsPlus
+description: $description
+prefix: ServerStatsPlus
+version: '${version}'
+
+main: me.abradee.serverStatsPlus.ServerStatsPlus
+api-version: '1.20.5'
+load: POSTWORLD
+
+authors: [ abradee ]
+website: https://modrinth.com/plugin/serverstatsplus
