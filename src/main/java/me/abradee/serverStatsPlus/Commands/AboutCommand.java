@@ -21,7 +21,7 @@ public class AboutCommand implements CommandExecutor {
                 "===JoinLeavePlus===\n" +
                         "\tAbout Plugin:\n" +
                         "\tVersion: " + version + "\n" +
-                        "\tA paper plugin that adds the ability to customize your join, leave, and first time join messages on your server using MiniMessage and legacy color codes!" +
+                        "\tA " +
                         "\tThe full list is at /help joinleaveplus.\n",
                 NamedTextColor.YELLOW
         );
