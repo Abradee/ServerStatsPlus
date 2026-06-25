@@ -36,3 +36,6 @@ replay_pid*
 **/dist/
 **/build/
 .env
+
+# macos stuff
+*.DS_Store
