@@ -18,11 +18,10 @@ public class AboutCommand implements CommandExecutor {
         String version = JavaPlugin.getProvidingPlugin(getClass()).getDescription().getVersion();
 
         Component message = Component.text(
-                "===JoinLeavePlus===\n" +
+                "===ServerStatsPlus===\n" +
                         "\tAbout Plugin:\n" +
                         "\tVersion: " + version + "\n" +
-                        "\tA " +
-                        "\tThe full list is at /help joinleaveplus.\n",
+                        "\tThis is a plugin that shows detailed server stats in a webpage.\n",
                 NamedTextColor.YELLOW
         );
 
