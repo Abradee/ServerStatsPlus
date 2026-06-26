@@ -5,20 +5,25 @@ body {
     margin: 0;
     min-height: 100vh;
     
-    /* --- UPDATED FLEX LAYOUT --- */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Pushes H1 to top, Footer to bottom */
-    align-items: center;
-    text-align: center;
+    justify-content: space-between; 
+    
+    /* --- CHANGED TO LEFT ALIGN --- */
+    align-items: flex-start; 
+    text-align: left;
+    
+    /* Optional: Adds a bit of breathing room from the left edge of the screen */
+    padding: 0 2rem; 
 }
 
 main {
-    /* This handles the layout for everything between the header and footer */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
+    /* --- CHANGED TO LEFT ALIGN --- */
+    align-items: flex-start;
     flex-grow: 1; 
     padding: 2rem 0;
 }
@@ -99,11 +104,13 @@ li::marker {
 
 /*** css-buttons.com ***/
 
+/* --- UPDATED BUTTON CONTAINER --- */
 .button-container {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     gap: 15px;
-    justify-content: center; 
+    /* CHANGED: Stops centering the grid block itself */
+    justify-content: flex-start; 
 }
 
 .button-container a {
