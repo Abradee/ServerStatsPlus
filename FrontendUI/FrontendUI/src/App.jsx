@@ -40,7 +40,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} MyReactApp. Built with 💻 and React.</p>
+        <p>&copy; {new Date().getFullYear()} abradee 2026</p>
       </footer>
     </div>
   );
