@@ -22,13 +22,13 @@ function App() {
       {/* Main Content Area */}
       <main className="main-content">
         <section className="hero">
-          <h1>Welcome to Your New React Project!</h1>
-          <p>This is a simple beginner template. Modify this text, add new components, and make it yours.</p>
+          <h1>frontend ui</h1>
+          <p>this is a really basic template project that is the baseplate to the frontend of serverstatsplus</p>
         </section>
 
         {/* Interactive Sandbox Section */}
         <section className="interactive-box">
-          <h2>Try React State</h2>
+          <h2>react can do things with variables like js</h2>
           <p>Buttons in React can change data on the screen instantly.</p>
           <div className="counter-controls">
             <button onClick={() => setCount(count - 1)}>-</button>
